@@ -1,3 +1,3 @@
 export const PageTitle = (probs) => {
-  return <h1>{probs.pagetitle}</h1>;
+  return <h1 className="styles.top">{probs.pagetitle}</h1>;
 };

@@ -1,0 +1,12 @@
+.pretty {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 150px;
+  font-size: 20px;
+  margin-left: 10px;
+  background-color: rgb(155, 8, 8);
+  border: solid 1px black;
+  color: white;
+}
