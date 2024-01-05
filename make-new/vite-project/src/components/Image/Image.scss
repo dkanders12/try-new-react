@@ -1,0 +1,18 @@
+.BigOne {
+  width: 400px;
+  border: solid 3px black;
+}
+.Gallery {
+  display: grid;
+  grid-template-columns: repeat(
+    4,
+    1fr
+  ); /* Adjust the number of columns as needed */
+  gap: 16px; /* Adjust the gap between images */
+}
+
+.Gallery img {
+  width: 100%;
+  height: auto;
+  border: 3px solid black;
+}
