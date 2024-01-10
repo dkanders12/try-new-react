@@ -5,7 +5,7 @@
 .Gallery {
   display: grid;
   grid-template-columns: repeat(
-    4,
+    8,
     1fr
   ); /* Adjust the number of columns as needed */
   gap: 16px; /* Adjust the gap between images */
